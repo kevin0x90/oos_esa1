@@ -1,0 +1,12 @@
+Erstellen Sie ein Programm, welches einen Verzeichnisbaum durchwandert (inkl. der Unterverzeichnisse -- also rekursiv).
+Ermitteln Sie für jeden gefundenen Eintrag die MD5-Summe.
+Das Programm soll auf der Standardausgabe für jeden gefundenen Eintrag (Datei, Verzeichnis, Link, ..) den Dateinamen,
+den Dateipfad (relativ zum Startverzeichnis) sowie  die MD5-Summe (nur für die Datei) ausgeben.
+Das Startverzeichnis soll als Kommandozeilen-Parameter an das Skript übergeben werden.
+
+Es soll auch möglich sein, das die Funktion oder Methode in andere Python-Skripte zu importieren.
+
+Verwenden Sie nicht os.walk oder os.path.walk.
+Fangen Sie Exceptions, die zum Beispiel auftreten, wenn die Leserechte fehlen.
+
+Nützliche Module bzw. Funktionen sind hashlib, os.listdir.
